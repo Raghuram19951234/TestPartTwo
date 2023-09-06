@@ -3,7 +3,7 @@ resource "aws_instance" "Raghuram_Terra_Instance" {
     instance_type = "t2.micro"
     count = 1
     tags = {
-        Name = "Raghuram_Terra_In1"
+        Name = "Raghuram_Terra_In2"
     }
   
 }
